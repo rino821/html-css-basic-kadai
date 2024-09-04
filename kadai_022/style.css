@@ -38,7 +38,7 @@ main {
 }
 h2::before {
   content: "●";
-  color: rgb(97, 206, 249);
+  color: rgb(239, 111, 139);
 }
 h2 {
   font-size: 25px;
