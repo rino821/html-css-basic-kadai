@@ -1,0 +1,48 @@
+header {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(244, 79, 79);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+}
+p {
+  font-size: 20px;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+}
+a {
+  font-size: 20px;
+}
+main {
+  padding: 10px;
+}
+.flexbox-container {
+  justify-content: space-around;
+  display: flex;
+}
+.contents {
+  border: solid 3px rgb(238,204,204);
+  flex-basis: 25%;
+  padding: 10px 15px;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contents p:nth-of-type(2)::first-letter {
+  font-weight: bold;
+  color: rgb(97,206,249);
+}
+h2 {
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236, 122, 122);
+}
+h2::before {
+  content:"●";
+  color: rgb(97, 206, 249);
+}
